@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8eabd914cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="Images//book2.jpg" class="logo"/> -->
+                <p><span><i>V</i></span>arshaa</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><i>Student</i></p>
+                <h1>Hi, I'm <span>Varshaa</span><br>Senthilkumar</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/small.png" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, Myself Varshaa Senthilkumar. I'm currently doing my MCA in Anna University. I'm an Intern in M2p</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA</span><br>Developing Tools</li>
+                            <li><span>Python</span><br>Web app Development</li>
+                            <li><span>HTML | CSS | JS</span><br>Web Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <!-- <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2019 - 2021</span><br>Team Lead at StartApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        </ul> -->
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - 2021</span><br>B.Sc.Computer Science</li>
+                            <li><span>2021 - Currently</span><br>Master of Computer Application</li>
+                            <li><span>Currently</span><br>Intern at M2P</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------Services----- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quia architecto, ut harum porro quisquam ab debitis totam temporibus aliquid repellat eaque tenetur molestias magnam, veritatis voluptates! A, qui culpa.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quia architecto, ut harum porro quisquam ab debitis totam temporibus aliquid repellat eaque tenetur molestias magnam, veritatis voluptates! A, qui culpa.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quia architecto, ut harum porro quisquam ab debitis totam temporibus aliquid repellat eaque tenetur molestias magnam, veritatis voluptates! A, qui culpa.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----Portfolio---->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="Images/calci.png"/>
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>This is just a normal calculator bult using HTML , CSS for designing and JS for functioning</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="Images/emi_calci.png"/>
+                    <div class="layer">
+                        <h3>EMI Calculator</h3>
+                        <p>This EMI Calculator helps to calculate EMI thatbhas to be paid.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/converter.png"/>
+                    <div class="layer">
+                        <h3>Currency Converter</h3>
+                        <p>On can convert the Currency from one Unit to another Unit.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/color_mixer.png"/>
+                    <div class="layer">
+                        <h3>RGB Color Mixer</h3>
+                        <p>This helps to pick the color along with RGB value and Hexadecimal value.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/game.png"/>
+                    <div class="layer">
+                        <h3>Number Guessin Game</h3>
+                        <p>This game works in such a way that one has to try guessing any Random Number.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/grid.png"/>
+                    <div class="layer">
+                        <h3>Image Gallery</h3>
+                        <p>This Image Gallery is designed using Grid view in HTML and CSS.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/flex.png"/>
+                    <div class="layer">
+                        <h3>Flex Design</h3>
+                        <p>This design is developed using HTML and CSS for flex design.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/table.png"/>
+                    <div class="layer">
+                        <h3>Table</h3>
+                        <p>Company Employee details displayed using table.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/shopify.png"/>
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Simple form tag is used to show the details required for a Shopping cart.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="project.html" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- -----Contact----->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> varshaa.harinee@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i> 9597449937</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/?lang=en-in"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Images/Dementia - DEMNET safe.pptx" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/d5270c5364ebdb62e1c5f8eba21c9a9e" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Varshaa.<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
