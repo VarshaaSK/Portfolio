@@ -24,6 +24,10 @@ nav p span{
     color: #eb8d8d;
 }
 
+.header-text p span{
+    color: #eb8d8d;
+}
+
 #header{
     width: 100%;
     height: 100vh;
@@ -375,6 +379,7 @@ form btn2{
     background: #262626;
     font-weight: 300;
     margin-top: 20px;
+    color: #fff;
 }
 
 .copyright i{
