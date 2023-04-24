@@ -159,5 +159,13 @@ img:hover{
     .product .itembox {
         width: 320px;
         height: 250px;
+        margin-bottom: 100px;
+    }
+
+    .itembox:hover .layer{
+        height: 100%;
+        margin-bottom: -50px;
+        width: 300px;
+        height: 304px;
     }
 }
